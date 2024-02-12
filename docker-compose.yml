@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  services1:
+    build:
+      context: ./services1
+    ports:
+      - "5000:5000"
+
+  # Add entries for other services as needed
+
